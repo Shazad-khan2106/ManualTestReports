@@ -1,0 +1,46 @@
+.dashboard-wrapper {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  position: relative;
+  cursor: pointer;
+}
+
+.edit-icon {
+  font-size: 16px;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dashboard-title:hover .edit-icon {
+  opacity: 1;
+}
+
+.dashboard-title-input {
+  font-size: 26px;
+  padding: 4px 10px;
+  width: 400px;
+}
+
+.dashboard-logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Grid layout for chart cards */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22%, 1fr));
+  gap: 1.5rem;
+}

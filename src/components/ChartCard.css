@@ -1,0 +1,40 @@
+.chart-card-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 280px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #fff;
+}
+
+.dashboard-title {
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.title-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.title-input {
+  font-size: 14px;
+  padding: 4px;
+  width: 90%;
+}
+
+.edit-icon {
+  position: absolute;
+  right: -20px;
+  top: 4px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+.title-wrapper:hover .edit-icon {
+  opacity: 1;
+}
